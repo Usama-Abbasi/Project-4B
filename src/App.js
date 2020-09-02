@@ -1,24 +1,23 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+// import '../node_modules/bootstrap/dist/js/bootstrap.bundle.js';
+import Navbar from './components/Navbar';
+import TopComponent from './components/TopComponent';
+import AboutUs from './components/AboutUs';
+import Footer from './components/Footer';
+import ScrollAnimation from 'react-animate-on-scroll';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="body">
+      <Navbar />
+      <TopComponent />
+      <ScrollAnimation animateIn='bounceInLeft'>
+        <AboutUs />
+      </ScrollAnimation>
+      <Footer />
     </div>
   );
 }

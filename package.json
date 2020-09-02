@@ -6,9 +6,17 @@
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
+    "@wellyshen/use-web-animations": "^0.5.2",
+    "bootstrap": "^4.5.2",
+    "mdreact": "^0.1.5",
+    "rc-footer": "^0.6.3",
     "react": "^16.13.1",
+    "react-animate-on-scroll": "^2.1.5",
+    "react-bootstrap": "^1.3.0",
     "react-dom": "^16.13.1",
-    "react-scripts": "3.4.3"
+    "react-responsive-animate-navbar": "^1.1.8",
+    "react-scripts": "3.4.3",
+    "react-typing-animation": "^1.6.2"
   },
   "scripts": {
     "start": "react-scripts start",

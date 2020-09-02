@@ -1,38 +1,75 @@
-.App {
+.navbar {
+  color: #003A78;
+  background: white;
+}
+
+.navbar-nav,
+.nav-item {
+  margin-left: auto;
+}
+
+.nav-item {
+  margin-right: 50px;
+}
+
+.navbar-toggler {
+  color: #003a78;
+}
+
+.navbar-brand {
+  margin-left: 150px;
+}
+
+.logo {
+  height: 50px;
+}
+
+.h1Text {
+  color: #003A78;
+  margin-top: 100px
+}
+
+.paraText {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 22px;
+}
+
+.topRight {
+  font-size: 56px;
+  margin: 200px 0 50px;
   text-align: center;
+  color: #003A78;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.footer {
+  background:black;
   color: white;
+  height: 600px;
+  padding-top: 300px;
+  margin-top: 150px;
 }
 
-.App-link {
-  color: #61dafb;
+.footerH1,
+.footerH3 {
+  text-align: center;
+  margin: '0 auto';
+  display: flex;
+  justify-content: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.footerH1 {
+  font-size: 30px;
+}
+
+
+/* 
+.footerH3 {
+  padding: 0 22vh;
+
+font-size: 38px
+}
+*/
+
+.topAnimation {
+  margin-top: 100px;
 }
