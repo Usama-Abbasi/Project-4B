@@ -1,5 +1,5 @@
 import React from 'react';
-import useWebAnimations, { slideInUp, slideInRight} from '@wellyshen/use-web-animations';
+import useWebAnimations, { slideInRight} from '@wellyshen/use-web-animations';
 const TopComponent = () => {
     const { ref} = useWebAnimations({...slideInRight});
     return ( 

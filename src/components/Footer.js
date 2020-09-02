@@ -1,5 +1,5 @@
 import React from 'react'
-import useWebAnimations, { zoomInLeft, slideInDown} from '@wellyshen/use-web-animations';
+import useWebAnimations, { zoomInLeft} from '@wellyshen/use-web-animations';
 
 const Footer = () => {
     const { ref } = useWebAnimations({ ...zoomInLeft });
