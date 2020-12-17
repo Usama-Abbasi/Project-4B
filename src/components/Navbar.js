@@ -1,10 +1,11 @@
 import React from 'react'
 import {ReactNavbar} from "react-responsive-animate-navbar";
+import '..//App.css';
 export default function Navbar() {
     return (
         <ReactNavbar
-        color="rgb(25, 25, 25)"
-        logo="https://svgshare.com/i/KHh.svg"
+        color="rgb(0, 51, 102)"
+        logo="img/overlay.png"
         menu={[
           { name: "HOME", to: "/" },
           { name: "ABOUT ME", to: "/about" },
